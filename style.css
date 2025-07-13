@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+h1 {
+  color: #2e7d32;
+}
+
+.anio {
+  margin-bottom: 30px;
+}
+
+.materia {
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin: 5px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.materia:hover {
+  background-color: #e0f2f1;
+}
+
+.aprobada {
+  border-color: #2e7d32;
+  background-color: #c8e6c9;
+  text-decoration: underline;
+  font-weight: bold;
+}
